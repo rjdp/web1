@@ -1142,3 +1142,15 @@ input.nuber {
   visibility: hidden; 
 }
 
+@font-face {
+    font-family: 'battlefinblack';
+    src: url('battlefin-black-webfont.eot');
+    src: url('battlefin-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('battlefin-black-webfont.woff2') format('woff2'),
+         url('battlefin-black-webfont.woff') format('woff'),
+         url('battlefin-black-webfont.ttf') format('truetype'),
+         url('battlefin-black-webfont.svg#battlefinblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
