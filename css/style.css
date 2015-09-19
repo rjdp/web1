@@ -1142,3 +1142,8 @@ input.nuber {
   visibility: hidden; 
 }
 
+@font-face {
+   font-family: Battlefin;
+   src: url(http://buggydebugger.com/divya/fonts/Battlefin-Black.otf);
+   
+}
