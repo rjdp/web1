@@ -457,6 +457,7 @@ span.hide-box p{
 .text-label{
 	background:#309BBE;
 	padding: 36px 83px;
+	    
 }
 .text-label{
 	font-family: 'Monda', sans-serif;
@@ -465,6 +466,7 @@ span.hide-box p{
 	color: #fff;
 }
 .social-icn{
+	height: 80px;
 	background:#79CFD1;
 	padding: 30px 0px 25px;
 }
