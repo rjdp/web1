@@ -50,7 +50,7 @@
   $messageBody = constructMessageBody();
   require './vender/php_mailer/PHPMailerAutoload.php';
   $FEEDBACK_HOSTNAME = 'smtp.gmail.com';
-  $FEEDBACK_ENCRYPTION = 'TLS'
+  $FEEDBACK_ENCRYPTION = 'TLS';
   $mail = new PHPMailer;
   $mail->CharSet = 'UTF-8';
   $mail->isSMTP();
