@@ -32,11 +32,12 @@
 
   //do Captcha check, make sure the submitter is not a robot:)...
   $url = 'https://www.google.com/recaptcha/api/siteverify';
+  $RECAPTCHA_SECRET_KEY = '6Lc3UA0TAAAAAAl2P6JvgkHd2-3TafO2QIndRS4e'
   $opts = array('http' =>
     array(
       'method'  => 'POST',
       'header'  => 'Content-type: application/x-www-form-urlencoded',
-      'content' => http_build_query(array('secret' => getenv('RECAPTCHA_SECRET_KEY'), 'response' => $_POST["g-recaptcha-response"]))
+      'content' => http_build_query(array('secret' => $RECAPTCHA_SECRET_KEY, 'response' => $_POST["g-recaptcha-response"]))
     )
   );
   $context  = stream_context_create($opts);
@@ -48,25 +49,29 @@
   //attempt to send email
   $messageBody = constructMessageBody();
   require './vender/php_mailer/PHPMailerAutoload.php';
+  $FEEDBACK_HOSTNAME = 'smtp.gmail.com';
+  $FEEDBACK_ENCRYPTION = 'TLS'
   $mail = new PHPMailer;
   $mail->CharSet = 'UTF-8';
   $mail->isSMTP();
-  $mail->Host = getEnv('FEEDBACK_HOSTNAME');
+  $mail->Host = $FEEDBACK_HOSTNAME;
+$FEEDBACK_EMAIL= 'rjdp9736@gmail.com';
+$FEEDBACK_PASSWORD = '7209331712' ;
   if (!getenv('FEEDBACK_SKIP_AUTH')) {
     $mail->SMTPAuth = true;
-    $mail->Username = getenv('FEEDBACK_EMAIL');
-    $mail->Password = getenv('FEEDBACK_PASSWORD');
+    $mail->Username = $FEEDBACK_EMAIL;
+    $mail->Password = $FEEDBACK_PASSWORD;
   }
-  if (getenv('FEEDBACK_ENCRYPTION') == 'TLS') {
+  if ($FEEDBACK_ENCRYPTION == 'TLS') {
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
-  } elseif (getenv('FEEDBACK_ENCRYPTION') == 'SSL') {
+  } elseif ($FEEDBACK_ENCRYPTION == 'SSL') {
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
   }
 
   $mail->setFrom($_POST['email'], $_POST['name']);
-  $mail->addAddress(getenv('FEEDBACK_EMAIL'));
+  $mail->addAddress($FEEDBACK_EMAIL);
 
   $mail->Subject = $_POST['reason'];
   $mail->Body  = $messageBody;
