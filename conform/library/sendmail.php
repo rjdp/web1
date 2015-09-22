@@ -32,7 +32,7 @@
 
   //do Captcha check, make sure the submitter is not a robot:)...
   $url = 'https://www.google.com/recaptcha/api/siteverify';
-  $RECAPTCHA_SECRET_KEY = '6Lc3UA0TAAAAAAl2P6JvgkHd2-3TafO2QIndRS4e'
+  $RECAPTCHA_SECRET_KEY = '6Lc3UA0TAAAAAAl2P6JvgkHd2-3TafO2QIndRS4e';
   $opts = array('http' =>
     array(
       'method'  => 'POST',
