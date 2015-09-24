@@ -578,16 +578,15 @@ input.mail {
 	font-size: 12.5px;
 	font-family: 'Monda', sans-serif;
 	border: none;
-	height: 31px;
-	margin-bottom: 1px;
+	height: 31px;margin-bottom: -8%;
+    margin-left: 32%;
 }
 .sub1:hover,.sub1:active,.sub1:focus{
 	border: none;
 	outline:none;
 	padding: 0px 15px;
 	height: 31px;
-	margin-bottom: 1px;
-}
+	}
 .contact-us textarea {
 	width: 75%;
 	resize: none;
@@ -606,7 +605,7 @@ input.name{
 	font-size: 12.5px;
 	height: 29px;
 	outline:none;
-	width:32.5%;
+	width:24.5%;
 	color: #ABA5A5;
 }
 input.nuber {
@@ -616,7 +615,7 @@ input.nuber {
 	font-size: 12.5px;
 	height: 29px;
 	outline:none;
-	width:32.5%;
+	width:24.5%;
 	color: #ABA5A5;
 }
 /*--contact--*/
