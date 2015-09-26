@@ -482,17 +482,21 @@ span.hide-box p{
 	display:inline;
 }
 .social-icn ul li a{
-	background: url(../images/social.png);
-	width: 35px;
+	background: url(../images/sprites.png);
+	/*width: 35px;
 	background-size: 211px;
-	height: 34px;
+	height: 34px;*/
 	display: inline-block;
 }
 .social-icn ul li a.face{
-	background-position: 0px 34px;
+	/*background-position: 0px 34px;*/
+	background-position: 0 -3px;
+    width: 324px;
+    height: 93px;
 }
 .social-icn ul li a.face:hover{
-	background-position: 0px 68px;
+	/*background-position: 0px 68px;*/
+
 }
 .social-icn ul li a.twit{
 	background-position: -71px 34px;
@@ -501,10 +505,12 @@ span.hide-box p{
 	background-position: -71px 68px;
 }
 .social-icn ul li a.gplus{
-	background-position: -106px 34px;
+	    background-position: -338px 0;
+    width: 223px;
+    height: 108px;
 }
 .social-icn ul li a.gplus:hover{
-	background-position: -106px 68px;
+	/*background-position: -106px 68px;*/
 }
 .social-icn ul li a.inst{
 	background-position: -35px 34px;

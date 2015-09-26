@@ -1,0 +1,22 @@
+.practo, .savetime_logo, .imageedit_2_6936036337{
+	background: url(sprites.png) no-repeat;
+}
+
+.practo{
+	background-position: -199px -19px ;
+	width: 129px;
+	height: 36px;
+}
+
+.savetime_logo{
+	background-position: -338px 0;
+	width: 224px;
+	height: 99px;
+}
+
+.imageedit_2_6936036337{
+	background-position: 0 -3px ;
+	width: 188px;
+	height: 64px;
+}
+
