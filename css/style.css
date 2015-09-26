@@ -38,7 +38,7 @@ body{
 nav.navbar.navbar-default.chn-gd{
 	background-color: #fff;
 	border-bottom: 1px solid #EBEBEB;
-	padding: 1em 0em;
+	padding: 0em 0em;
 	margin: 0;
 }
 .icn_pos {
@@ -975,7 +975,7 @@ input.nuber {
 		font-size: 26px;
 	}
 	nav.navbar.navbar-default.chn-gd {
-		padding: 0.5em 0em;
+		padding: 0em 0em;
 	}
 	.carousel-caption h3 {
 		font-size: 14px;
