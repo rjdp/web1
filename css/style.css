@@ -1138,37 +1138,9 @@ input.nuber {
 *[id]:before { 
   display: block; 
   content: " "; 
-  margin-top: -75px; 
-  height: 75px; 
+  margin-top: -0px; 
+  height: 0px; 
   visibility: hidden; 
 }
 
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-y9udmw');
-	src:url('fonts/icomoon.eot?#iefix-y9udmw') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?-y9udmw') format('truetype'),
-		url('fonts/icomoon.woff?-y9udmw') format('woff'),
-		url('fonts/icomoon.svg?-y9udmw#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon' !important;
-	speak: none !important;
-	font-style: normal !important;
-	font-weight: normal !important;
-	font-variant: normal !important;
-	text-transform: none !important;
-	line-height: 1 !important;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: grayscale !important;
-}
-
-.icon-practo_logo:before {
-	content: "\e600" !important;
-}
