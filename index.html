@@ -545,15 +545,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="contact-form">
 				<div class="container">
-					<div class="col-md-3 pd adress">
+					<div class="col-md-3 pd address">
 						<h3>adress</h3>
 						<ul>
-							<li>Rome</li>
-							<li>Italy</li>
-							<li>55, Cannal Street</li>
-							<li>ht no, 1/1/295/1</li
+							<li>DIVYA EYE CLINIC</li>
+							<li>2 Shakun Apartment</li>
+							<li>Above Bank of Maharashtra </li>
+							<li>Near Bremen Chowk, Sanghavi Nagar, Aundh, </li>
+<li>Pune - 411007</li>
+<li>Contact:- 020-25881689 / 8600252534</li>
+
+<li>E-mail:- divyaeyeclinicpune@gmail.com</li>
+
 						</ul>
 					</div>
+					<div class="col-md-3 pd adress">
+						<h3>Working hours</h3>
+						<ul>
+							
+							<li>MONDAY TO FRIDAY - 9:00 AM - 08:00 PM</li>
+							<li>SATURDAY - 9:00 AM - 03:00 PM</li>
+							<li>SUNDAY CLOSED </li>
+
+
+						</ul>
+					</div>
+
 					<div class="col-md-6 pd contact-us pull-right">
 						<h3>contact us</h3>
 						<form id="ajax-contact" method="post" action="mailer.php">
@@ -578,5 +595,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+<script type="text/javascript">
+			
+			(function() {
+                
+                var documentElem = $(document),
+                    nav = $('nav'),
+                    lastScrollTop = 0;
+                
+                documentElem.on('scroll', function() {
+                    var currentScrollTop = $(this).scrollTop();
+                    
+                    //scroll down
+                    if ( currentScrollTop > lastScrollTop ) nav.addClass('hidden');
+                    //scroll up
+                    else nav.removeClass('hidden');
+                    
+                    lastScrollTop = currentScrollTop;
+                });
+                
+                
+                
+            })();
+		</script>
+		
 	</body>
 </html>
