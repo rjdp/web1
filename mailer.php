@@ -27,7 +27,7 @@ $email_content = "
 <a href='http://divyaeyeclinicpune.com' style='text-decoration:none;color:#fff;/* background-color: white; */' target='_blank'><img width='130' src='https://openmerchantaccount.com/img/plainlogobrandsv2out.png' style='width: 35%;margin-left: -6%;
 '></a><br>
  <b style='color:black;'>Query Details!</b></div>
- <div style='background-color:#f4f4f4;padding:10px;margin-top:6px'>
+ <div style='text-align:center;background-color:#f4f4f4;padding:10px;margin-top:6px'>
  
 
 
