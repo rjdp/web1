@@ -1,11 +1,11 @@
 $(function() {
-
+    
 	// Get the form.
 	var form = $('#ajax-contact');
 
 	// Get the messages div.
 	var formMessages = $('#form-messages');
-
+	$(formMessages).hide();
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
@@ -24,7 +24,10 @@ $(function() {
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
-
+$(formMessages).show();
+setTimeout(function() {
+        $(formMessages).hide();
+    }, 5000);
 			// Set the message text.
 			$(formMessages).text(response);
 
@@ -39,7 +42,10 @@ $(function() {
 			// Make sure that the formMessages div has the 'error' class.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
-
+$(formMessages).show();
+setTimeout(function() {
+        $(formMessages).hide();
+    },5000);
 			// Set the message text.
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
@@ -51,3 +57,4 @@ $(function() {
 	});
 
 });
+
