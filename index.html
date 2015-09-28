@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Divya Eye Clinic</title>
@@ -604,14 +604,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="col-md-6 pd contact-us pull-right">
 						<h3><u>contact us</u></h3>
 						<form id="ajax-contact" method="post" action="mailer.php">
-						<ghost></ghost><textarea id="message" name="message"  placeholder="Write Your Message here..."  style="z-index: auto; position: relative; line-height: 17.8571px; font-size: 12.5px; transition: none; overflow: auto;margin-bottom: 1%; " requried></textarea>
+						<ghost></ghost><textarea id="message" name="message"  placeholder="Write Your Message here..."  style="z-index: auto; position: relative; line-height: 17.8571px; font-size: 12.5px; transition: none; overflow: auto;margin-bottom: 1%; "
+						minlength="10" required></textarea>
 						
-						<input  class="name" id="name" type="text" name="name" placeholder="Your Name" requried />
+						<input  class="name" id="name" type="text" name="name" minlength="2" placeholder="Your Name" required>
 						
-                          <input  class="nuber" id="email" type="email" name="email"  placeholder="Email-Id" requried />
-                          <input   class="nuber" type="text" id="number" name="phone"  placeholder="Phone Number" requried />
+                          <input  class="nuber" id="email" type="email" name="email"  placeholder="Email-Id" required>
+                          <input   class="nuber" type="text" minlength="8" maxlength="12" title="Please enter a valid phone number" id="number" name="phone"  placeholder="Phone Number" required>
   <br>
-						<button type="submit" class="btn btn-info sub1" style=" margin-left: 34%; margin-top: -3%;">Send</button>
+						<input type="submit" class="btn btn-info sub1" style=" margin-left: 34%; margin-top: -3%;" value="Send">
 						</form>
 					</div>
 					<div class="clearfix"></div>
