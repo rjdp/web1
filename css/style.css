@@ -468,7 +468,7 @@ span.hide-box p{
 .social-icn{
 	height: 80px;
 	background:#79CFD1;
-	padding: 30px 0px 25px;
+	padding: 13px 61px 21px;
 }
 .social-icn ul{
 	list-style-type:none;
@@ -482,39 +482,46 @@ span.hide-box p{
 	display:inline;
 }
 .social-icn ul li a{
-	background: url(../images/sprites.png);
-	/*width: 35px;
-	background-size: 211px;
-	height: 34px;*/
+	background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    
 	display: inline-block;
 }
-.social-icn ul li a.face{
-	/*background-position: 0px 34px;*/
-	background-position: 0 -3px;
-    width: 324px;
-    height: 93px;
+.social-icn ul li a.sprite-lybrate{
+	width: 154px;
+    height: 38px;
+    background-position: -5px -5px
+	
+	
 }
 .social-icn ul li a.face:hover{
 	/*background-position: 0px 68px;*/
 
 }
-.social-icn ul li a.twit{
-	background-position: -71px 34px;
+.social-icn ul li a.sprite-phone{
+	  width: 48px;
+    height: 48px;
+    background-position: -169px -5px;
+	
 }
-.social-icn ul li a.twit:hover{
+/*.social-icn ul li a.twit:hover{
 	background-position: -71px 68px;
+}*/
+.social-icn ul li a.sprite-practo{
+	  width: 129px;
+    height: 36px;
+    background-position: -227px -5px;
 }
-.social-icn ul li a.gplus{
-	    background-position: -338px 0;
-    width: 223px;
-    height: 108px;
+/*.social-icn ul li a.gplus:hover{
+	background-position: -106px 68px;
+}*/
+.social-icn ul li a.sprite-savetime{
+	  width: 91px;
+    height: 40px;
+    background-position: -366px -5px;
 }
-.social-icn ul li a.gplus:hover{
-	/*background-position: -106px 68px;*/
-}
-.social-icn ul li a.inst{
-	background-position: -35px 34px;
-}
+
+/*
 .social-icn ul li a.inst:hover{
 	background-position: -35px 68px;
 }
@@ -531,7 +538,7 @@ span.hide-box p{
 }
 .social-icn ul li a.in:hover{
 	background-position:35px 68px;
-}
+}*/
 /*--contact--*/
 .map {
 	margin: 0px 0px 0px;
