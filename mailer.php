@@ -7,13 +7,6 @@ $phone=$_POST["phone"];
 $email=$_POST["email"];
 $message=$_POST["message"];
 
-// Check that data was sent to the mailer.
-        if ( $name=="" OR $message=="" OR $phone=="" $email="") {
-            // Set a 400 (bad request) response code and exit.
-            
-            echo "Oops! There was a problem with your submission. Please complete the form and try again.";
-            exit;
-        }
 
 
 $email_content = "
@@ -86,6 +79,5 @@ if (mail($to,$subject,$email_content,$headers)) {
            
             echo "Oops! Something went wrong and we couldn't send your message.";
         }
-
 
 ?>
