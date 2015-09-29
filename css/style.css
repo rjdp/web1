@@ -438,17 +438,17 @@ span.hide-box p{
 	display:none;
 }
 .caption h4{
-	font-weight: 500;
-	font-size: 18px;
+	font-weight: bold;
+	font-size: 22px;
 	font-family: 'Roboto Slab', serif;
-	    color: #033B4E;
+	    color: #000000;
 }
 .caption span{
-	font-weight: 100;
+	font-weight: 600;
 	color: #fff;
 	margin:0;
 	padding:0;
-	font-size:0.875em;
+	font-size:1em;
 }
 .social-label{
 	padding:0em 0em;
