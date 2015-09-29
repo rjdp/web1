@@ -531,11 +531,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<ul>
 							
 							<li>
-								<a href="#" class="sprite-phone"></a>
+								
+							
+							<span data-toggle="popover" title="Phone Number" data-placement="bottom" data-content="020-25881689 / 8600252534" >
+    <a  data-toggle="tooltip" title="Call Us!"  class="sprite-phone"></a>
+</span>
+
 							</li>
 
 							<li>
-								<a href="#" class="sprite-lybrate" data-toggle="modal" data-target="#myModal"></a>
+
+								<span data-toggle="modal" data-target="#myModal">
+    <a data-toggle="tooltip" class="sprite-lybrate" data-placement="top" title="Get an Appointment !"></a>
+</span>
   <div id="myModal" class="modal fade" role="dialog" aria-hidden="true" style="display: none;top: 8%;">
   <div class="modal-dialog modal-lg modal-sm">
 
@@ -619,7 +627,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
-		<div class="container" id="form-messages"></div>
+		<div class="container" style="text-align: center;color: #31708f;
+    background-color: #d9edf7;" id="form-messages"></div>
 		<div class="footer">
 			<div class="container footer-text">
 				<p style="margin-top: 0px;">&#169;Divya Eye Clinic</p>
@@ -630,7 +639,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
 <script>
 $(".navbar-fixed-top").autoHidingNavbar({hideOffset: '300'});
-
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
 
 </script>
 
