@@ -29,8 +29,8 @@ setTimeout(function() {
         $(formMessages).hide();
     }, 5000);
 			// Set the message text.
-			r=String(response);
-			$(formMessages).html(r);
+			alert(response);
+			$(formMessages).html(response);
 
 			// Clear the form.
 			$('#name').val('');
