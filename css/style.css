@@ -1188,3 +1188,11 @@ input.nuber {
 	text-shadow: 0px 1px 1px #fff;
 	color: #000;
 }
+
+.label
+{
+display: block;
+text-align: left;
+width: 300px;
+white-space: normal;
+}
