@@ -24,13 +24,14 @@ $(function() {
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');
-$(formMessages).show();
+
+			// Set the message text.
+			
+			$(formMessages).html(response);
+			$(formMessages).show();
 setTimeout(function() {
         $(formMessages).hide();
     }, 5000);
-			// Set the message text.
-			alert(response);
-			$(formMessages).html(response);
 
 			// Clear the form.
 			$('#name').val('');
