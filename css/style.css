@@ -1177,7 +1177,7 @@ input.nuber {
   }
 }
 
-.blueimp-gallery .modal-body a {
+.blueimp-gallery .modal-body  {
 	background: url(../images/loading.gif) center no-repeat;
 	background-size: 64px 64px;
 }
