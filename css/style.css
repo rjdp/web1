@@ -1178,7 +1178,7 @@ input.nuber {
 }
 
 .blueimp-gallery > .slides > .slide-loading {
-	background: url(../images/loading.gif) center no-repeat;
+	background: url(../images/fbloader.gif) center no-repeat;
 	background-size: 64px 64px;
 }
 
