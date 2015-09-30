@@ -610,7 +610,7 @@ input.mail {
 	font-family: 'Monda', sans-serif;
 	font-size: 12.5px;
 	outline:none;
-	color: #ABA5A5;
+	color: #000000;
 }
 input.name{
 	padding: 7px 10px;
@@ -620,7 +620,7 @@ input.name{
 	height: 29px;
 	outline:none;
 	width:24.5%;
-	color: #ABA5A5;
+	color: #000000;
 }
 input.nuber {
 	padding: 7px 10px;
@@ -630,7 +630,7 @@ input.nuber {
 	height: 29px;
 	outline:none;
 	width:24.5%;
-	color: #ABA5A5;
+	color: #000000;
 }
 /*--contact--*/
 /*--footer--*/
