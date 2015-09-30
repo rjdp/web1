@@ -334,7 +334,7 @@ ul {
 }
 /*--style_for_menudrop--*/
 /*--acheivements--*/
-.acheivments {
+.gallery {
 	padding:0em 0em 3em;
 }
 .top {
@@ -380,7 +380,7 @@ span.hide-box {
 	z-index: 9;
 	display: none;
 	width: 100%;
-	padding: 70px 0px;
+	padding: 33px 0px;
 	text-align: center;
 	top: 0;
 	border-radius: 2px;
@@ -953,7 +953,7 @@ input.nuber {
 	span.hide-box {
 		padding: 50px 0px;
 	}
-	.acheivments {
+	.gallery {
 		padding: 0em 0em 2em;
 	}
 	.social-icn ul li {
@@ -1101,7 +1101,7 @@ input.nuber {
 	.service_features {
 		padding: 0em 0em 1em;
 	}
-	.acheivments {
+	.gallery {
 		padding: 0em 0em 1em;
 	}
 	.social-icn ul li {
