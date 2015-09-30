@@ -362,16 +362,17 @@ ul {
 	padding:0;
 }
 .gallery-grids ul li{
-	margin:0px 20px 20px 0px;
+	margin:0px 15px 15px 0px;
 	padding:0;
 }
 .gal-alt img {
 	width: 100%;
 	border-radius: 2px;
+	box-shadow: 7px 9px 8px 2px rgba(0,0,0,0.75);
 }
 .gal-alt {
 	position: relative;
-	width: 31.333333%;
+	width: 23.6%;
 }
 span.hide-box {
 	background: rgba(121, 207, 209, 0.63);
@@ -379,7 +380,7 @@ span.hide-box {
 	z-index: 9;
 	display: none;
 	width: 100%;
-	padding: 97px 0px;
+	padding: 70px 0px;
 	text-align: center;
 	top: 0;
 	border-radius: 2px;
@@ -1157,3 +1158,11 @@ input.nuber {
 }
 
 
+
+#form-messages .flash_message {
+    padding: 10px;
+    color: green;
+    position: absolute;
+    top: 100%	;
+    display: block;
+}
