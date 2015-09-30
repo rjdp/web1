@@ -1168,16 +1168,11 @@ input.nuber {
 }
 
 @media screen and (max-width: 768px) {
-  p,.btn,input,div,span,h4 {
-    font-size: 90%;
+ 
+  .caption h4 {
+    font-size: 12px;  
   }
-  h1 {
-    font-size: 20px;  
-  }
-  h2 {
-    font-size: 18px;  
-  }
-  h3 {
-    font-size: 16px;  
+  .caption h4 {
+    font-size: 10px;  
   }
 }
