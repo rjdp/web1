@@ -31,7 +31,7 @@ $(function() {
 			$(formMessages).show();
 setTimeout(function() {
         $(formMessages).hide();
-    }, 5000);
+    }, 7000);
 
 			// Clear the form.
 			$('#name').val('');
