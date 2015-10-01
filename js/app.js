@@ -59,4 +59,3 @@ setTimeout(function() {
 	});
 
 });
-
