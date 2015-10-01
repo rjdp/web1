@@ -441,7 +441,7 @@ span.hide-box p{
 	display:none;
 }
 .caption h4{
-	font-weight: bold;
+	font-weight: 6;
 	font-size: 22px;
 	font-family: 'Roboto Slab', serif;
 	    color: #000000;
@@ -497,14 +497,7 @@ span.hide-box p{
 	
 	
 }
-.social-icn ul li a.sprite-lybrate:hover{
-	/*background-position: 0px 68px;*/
-	
-    border:solid 1px #888888;
-    
-    opacity:0.6;
-    filter:alpha(opacity=60); /* For IE8 and earlier */
-}
+
 .social-icn ul li a.sprite-phone{
 	  width: 48px;
     height: 48px;
