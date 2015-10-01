@@ -1184,7 +1184,7 @@ input.nuber {
 	background-size: 64px 64px;
 }
 
-.carousel-caption p,.carousel-caption h3{
+.carousel-caption p,.carousel-caption h3,.carousel-caption a{
 	text-shadow: 0px 1px 1px #fff;
 	color: #000;
 }
