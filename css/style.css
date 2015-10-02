@@ -1190,3 +1190,45 @@ width: 300px;
 white-space: normal;
 }
 
+
+     @media only screen and (max-width: 1222px) {
+         .social-icn ul li{
+         padding: 0px 35px;
+         }
+   
+}
+
+      @media only screen and (max-width: 1210px) {
+         .social-icn ul li{
+         padding: 0px 30px;
+         }
+   
+}
+ 
+  @media only screen and (max-width: 1106px) {
+         .social-icn ul li{
+         padding: 0px 20px;
+         }
+   
+}
+
+
+ @media only screen and (max-width: 1014px) {
+         .social-icn ul li{
+         padding: 0px 10px;
+         }
+   
+}
+@media only screen and (max-width: 991px) {
+         .social-icn ul li{
+         padding: 0px 43px;
+         }
+   
+}
+
+@media only screen and (max-width: 815px) {
+         .social-icn{
+         height: 120px;
+         }
+   
+}
