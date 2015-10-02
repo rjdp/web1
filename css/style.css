@@ -460,7 +460,7 @@ span.hide-box p{
 .text-label{
 	background:#309BBE;
 	padding: 17px 60px;
-	    
+	    height: 80px;
 }
 .text-label{
 	font-family: 'Monda', sans-serif;
@@ -1227,8 +1227,9 @@ white-space: normal;
 }
 
 @media only screen and (max-width: 815px) {
-         .social-icn{
+         .social-icn , .text-label{
          height: 120px;
          }
    
 }
+
